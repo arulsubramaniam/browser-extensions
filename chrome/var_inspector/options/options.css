@@ -1,0 +1,70 @@
+body {
+	text-align: center;
+	font-family: arial, helvetica, clean, sans-serif;
+}
+
+div.container {
+	width: 30%;
+	margin: 35px auto;
+	font-family: arial, helvetica, clean, serif;
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 30px 50px 20px;
+	margin-top: 50px;
+	box-shadow: 0 0 15px;
+	border-radius: 6px;
+}
+
+form,div.header,p.note {
+	display: inline-block;
+	width: 100%;
+}
+
+div.header h2 {
+	display: inline-block;
+	margin: 0 0 0 1em;
+	padding: 0;
+	line-height: 64px;
+	vertical-align: top;
+}
+
+fieldset {
+	border-color: #D3D3D3;
+	border-style: solid;
+	margin: 1em 0;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+fieldset.color input {
+	width: 5em;
+	font-family: monospace;
+}
+
+p.hint {
+	color: #999;
+	font-size: smaller;
+	margin: 0.5em 0 0 0;
+}
+
+p.hint:hover {
+	color: #000;
+}
+
+input[type=text] {
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 2px solid #ccc;
+	color: #4f4f4f;
+	font-size: 14px;
+	border-radius: 5px;
+	border-color: #A9A9A9;
+}
+
+input[type=radio] {
+	margin: 10px 10px 0 10px;
+}

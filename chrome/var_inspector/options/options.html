@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Var Inspector - Options</title>
+<script type="text/javascript" src="options.js"></script>
+<link rel="stylesheet" type="text/css" href="options.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="header">
+		    	<img src="/images/icon-64.png" alt="VarInspector" />
+		    	<h2>Var Inspector - Options</h2>
+		    	<br>
+		    	<p class="note">Note: Changes to the options are saved immediately</p>
+		    </div>
+		</header>
+		<div class="content">
+			<form action="">
+				<fieldset>
+					<legend>Variable name</legend>
+					<input type="text" name="variableName" id="variableName" placeholder="" width="100px;"/>
+					<br>
+					<p class="hint">Name of Variable to display the values</p>
+				</fieldset>
+				<fieldset>
+					<legend>Output display style</legend>
+					<div>
+						<div>
+							<input type="radio" name="format" value="json" id="formatJson" /> <label for="formatJson">JSON</label>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<label for="expandAllOption">Expand JSON Nodes? </label><input type="checkbox" name="expandall" id="expandAllJson" />
+						</div>
+						<div>
+							<input type="radio" name="format" value="raw" id="formatRaw" /> <label for="formatRaw">Raw</label>
+						</div>
+						<br>
+						<p class="hint">Display the output in specified format</p>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "Var Inspector",
+	"version": "1.1",
+	"description": "Var Inspector is a Chrome extension to display configured window object in JSON or RAW format.",
+	"icons": {
+		"16": "images/icon-16.png",
+		"48": "images/icon-48.png",
+		"128": "images/icon-128.png"
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"devtools_page": "devtools/devtools.html",
+	"options_page": "options/options.html",
+	"permissions": [
+		"tabs",
+		"storage",
+		"*://*/*"
+	],
+	"content_scripts": [{
+		"matches": ["http://*/*", "https://*/*"],
+		"js": ["content_script.js"],
+		 "run_at": "document_start"
+	}],
+	"short_name": "VarInspector"
+}

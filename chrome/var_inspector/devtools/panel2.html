@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" href="../extlib/jsonpanel.css" type="text/css">
+<script src="../extlib/jquery-1.12.3.min.js"></script>
+<script src="../extlib/Autolinker.min.js"></script>
+<script src="../extlib/jsonpanel.js"></script>
+
+<link rel="stylesheet" href="panel.css" type="text/css">
+<script type="text/javascript" src="panel.js"></script>
+</head>
+<body>
+	<div id="panel-container" class="content-wrapper">
+		<div id="panel-menu" class="menu">
+			<span class="menu-item"><a id="clear-button" href="#" class="menu-item-link" title="Clear log"><img
+					alt="Clear log" src="../images/clear-button.png" class="menu-item-image"></a></span> 
+			<span class="menu-item"><a id="refresh-button" href="#" class="menu-item-link" title="Refresh"><img
+					alt="Refresh" src="../images/refresh-button.png" class="menu-item-image"></a></span> 
+			<span class="menu-item"><a
+				id="expandall-button" href="#" class="menu-item-link" title="Expand All"><img alt="Expand All"
+					src="../images/expandall-button.png" class="menu-item-image"></a></span>
+			<span class="menu-item"><a
+				id="collapseall-button" href="#" class="menu-item-link" title="Collapse All"><img alt="Collapse All"
+					src="../images/collapseall-button.png" class="menu-item-image"></a></span>
+			<span class="menu-item"><input type="checkbox" id="preserve-log" name="preserveLog">Preserve log</span>
+		</div>
+
+		<div id="panel-content1" class="panel-content-wrapper">
+			<input class="toggle-box" id="header1" type="checkbox"> <label for="header1">Click to see data!</label>
+			<div id="panel-submenu1" class="submenu">
+				<span class="menu-item"><a id="expand-button" href="#" class="expand-button menu-item-link" title="Expand All"><img
+						alt="Expand All" src="../images/expand-button.png" class="menu-item-image"></a></span> <span class="menu-item"><a
+					id="collapse-button" href="#" class="collapse-button menu-item-link" title="Collapse All"><img alt="Collapse All"
+						src="../images/collapse-button.png" class="menu-item-image"></a></span>
+
+			</div>
+			<div id="content-item1" class="content-item jsonpanel"></div>
+		</div>
+		
+		<div id="panel-content2" class="panel-content-wrapper">
+			<input class="toggle-box" id="header2" type="checkbox"> <label for="header2">Click to see data!</label>
+			<div id="panel-submenu2" class="submenu">
+				<span class="menu-item"><a id="expand-button2" href="#" class="expand-button menu-item-link" title="Expand All"><img
+						alt="Expand All" src="../images/expand-button.png" class="menu-item-image"></a></span> <span class="menu-item"><a
+					id="collapse-button2" href="#" class="collapse-button menu-item-link" title="Collapse All"><img alt="Collapse All"
+						src="../images/collapse-button.png" class="menu-item-image"></a></span>
+
+			</div>
+			<div id="content-item2" class="content-item jsonpanel"></div>
+		</div>
+		
+	</div>
+</body>
+</html>

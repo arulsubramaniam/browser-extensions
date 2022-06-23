@@ -1,0 +1,54 @@
+html,body {
+	font-size: 12px;
+	font-family: arial, helvetica, clean, sans-serif;
+}
+
+.content-wrapper {
+	padding: 2px;
+	margin: 2px;
+	border-color: #d3d3d3;
+	border-style: solid;
+	border-width: thin;
+	word-break: break-all;
+}
+
+.menu {
+	padding: 5px;
+	margin: -3px;
+	border-color: #d3d3d3;
+	border-style: solid;
+	border-width: thin;
+}
+
+.menu-item {
+	padding: 2px;
+}
+
+.content-item {
+	overflow: auto;
+}
+
+#raw-content-item {
+	white-space: normal;
+	padding-left: 12px;
+}
+
+#expandall-button img,#collapseall-button img {
+	padding-bottom: 2px;
+}
+
+#message-item {
+	font-family: monospace;
+	font-size: 14px;
+	color: green;
+	text-align: center;
+}
+
+#content-label {
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-top: 12px;
+    color: blue;
+}
